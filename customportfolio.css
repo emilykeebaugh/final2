@@ -1,0 +1,51 @@
+.topspace{
+  margin-top: 20px;
+}
+
+.header{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h1{
+  text-decoration: underline;
+}
+
+img{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+  padding: 40px;
+}
+
+.border{
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+.header{
+  max-width: 600px;
+margin-left: 0px;
+margin-right: 0px;
+display: block;
+text-align: center;
+}
+
+.border{
+  min-width: 300%;
+  margin-bottom: -50px;
+  margin-left: -570px;
+}
+
+img{
+  display:block;
+  width: 500px;
+}
+
+}
